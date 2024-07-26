@@ -692,6 +692,15 @@ footer .social-icon{
     font-size: 1rem; 
     width: 68%;
   }
+  main .hero .circle {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(45deg, var(--rouge) 0%, var(--jaune) 80%);
+    position: absolute;
+    top: 200px;
+    filter: blour(150px);
+    z-index: -1;
+  }
   main button{
 
   }
@@ -728,7 +737,17 @@ display: none;
     top: 0px;
     padding: 0px;
   } 
-
+  main .realisations .rea .right .circle-blue {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, var(--bleu) 0%, var(--rouge) 80%);
+    position: absolute;
+    bottom: 320px;
+    left: 150px;
+    filter: blur(150px);
+    z-index: -1;
+    /* border-radius: 50%; */
+  }
   main .form-container{
     width: 100%;
   }
