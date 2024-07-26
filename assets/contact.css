@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); 
+@font-face {
+    font-family: "impact";
+    src: local(); 
+}
+
+:root{
+    --bleu: #262f66; 
+    --rouge: #E30613; 
+    --jaune: #ffed00;
+    --bleu-sombre : #141938;
+}
+
+*{
+    font-family: "Oswald";
+    font-size: 20px;
+    margin: 0; padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+
+body{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+body a{
+    color: black;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200%;
+    margin: 0px 30px;
+}
+.navbar .logo{
+    width: 100px;
+    margin: 0px 20px;
+}
+.navbar .navlinks{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navbar .navlinks .service {
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+}
+
+.navbar .contact-us{
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    border: 4px solid #303030;
+    padding: 7px 10px;
+    border-radius: 30px;
+}
+
+
+/* *******Footer****** */
+
+
+
+
+.sit-footer .Btn {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #ffffff25;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .sit-footer .svgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 30px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+  }
+  
+  .sit-footer .facebook-BG {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #1877f2;
+    z-index: -1;
+    border-radius: 30px;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  
+  .sit-footer .Btn:hover .facebook-BG {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+    background: #1877f2;
+  }
+  
+  .sit-footer .whatsapp-BG {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #25d366;
+    z-index: -1;
+    border-radius: 30px;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  
+  .sit-footer .Btn:hover .whatsapp-BG {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+    background: #25d366;
+  }
+  
+  .sit-footer .tiktok-BG {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#EE1252,#69c9d0);
+    z-index: -1;
+    border-radius: 30px;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  
+  .sit-footer .Btn:hover .tiktok-BG {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+    background: linear-gradient(#EE1252 65%,#69c9d0 100%);
+  }
+  
+  .sit-footer .Btn:hover .svgContainer {
+    border: 1px solid rgba(230, 230, 230, 0.466);
+    background-color: rgba(204, 204, 204, 0.466);
+    backdrop-filter: blur(4px);
+  }
+  
+  footer {
+    position: relative;
+    background-color: #dfe0e7;
+  }
+  
+  footer .sit-footer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0px 150px 10px 150px;
+    padding: 0px 10px 10px 10px;
+  }
+  
+  footer .sit-footer .foot-end,
+  .footer-links,
+  .footer-links-container,
+  .social-icon {
+    display: flex;
+    flex-flow: row;
+  }
+  
+  footer .sit-footer .footer-links-container{
+  justify-content: center;
+  }
+  footer .sit-footer .footer-links{
+    gap: 50px;
+    list-style: none;
+    margin: 30px;
+  }
+  
+  footer .sit-footer .sep2{
+    width: 100%;
+  }
+  
+  footer .sit-footer .foot-end{
+    width: 100%;
+    justify-content: space-between;
+    padding: 1px 20px;
+    margin-top: 10px;
+  }
+  
+  footer .social-icon{
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
