@@ -136,10 +136,12 @@ main button{
     /* background: linear-gradient(94deg, #fff 0%, #212121 5%, #212121 95%, #ffffff79 100%); */
     white-space: nowrap;
     position: relative;
-    rotate: -4deg;
-    top: 4px;
+    rotate: -2deg;
+    top: 27px;
     z-index: 2;
 }
+
+
 .text-slide{
     display: inline-block;
     animation: 30s slide infinite linear;
