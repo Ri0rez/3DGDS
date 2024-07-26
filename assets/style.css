@@ -633,10 +633,10 @@ footer .sit-footer .sep2{
 }
 
 footer .sit-footer .foot-end{
-  width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1px 20px;
   margin-top: 10px;
+  gap: 20%;
 }
 
 footer .social-icon{
